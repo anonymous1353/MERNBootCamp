@@ -149,11 +149,20 @@ employee=[{
 //console.log(a);
 let empobj ={ }
 
-employee.forEach(element => {
-    if(element.emp_id=='hammad'){
-    return empobj= element;}
-    else{ 
-    return false}
-});
+//employee.forEach(element => {
+  //  if(element.emp_id=='hammad'){
+    //return empobj= element;}
+    //else{ 
+    //return false}
+//});
 
-console.log(empobj)
+//console.log(empobj)
+
+const array = [2,3,6,9,15,30,33,40,51]
+
+let b=array.filter((ele)=>(ele%2==0))
+//console.log(b);
+
+const aar = [1,2,3,4,5]
+let bc=aar.map(el=>{ return el*2 })
+console.log(bc)
