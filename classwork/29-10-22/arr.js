@@ -1,4 +1,4 @@
-/*arr =[1,2,3,4,5,6,7,8,9]
+arr =[1,2,3,4,5,6,7,8,9]
 
 //console.log(arr[0])
 
@@ -11,6 +11,6 @@
 //console.log(arr[8])
 
 let a=arr.find((ele)=>(ele==9))
-
+let b= arr.filter((ele)=>(ele==5))
 console.log(a)
-*/
+console.log(b)
