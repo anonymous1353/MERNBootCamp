@@ -145,6 +145,15 @@ employee=[{
 //console.log(employee.emp_company_address.com_city)
 //.log(employee.emp_address.emp_city)
 
-let a=employee.filter((ele)=>(ele.emp_sal<=40000))
-console.log(a);
+//let a=employee.filter((ele)=>(ele.emp_sal<=40000))
+//console.log(a);
+let empobj ={ }
 
+employee.forEach(element => {
+    if(element.emp_id=='hammad'){
+    return empobj= element;}
+    else{ 
+    return false}
+});
+
+console.log(empobj)
